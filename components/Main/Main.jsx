@@ -3,6 +3,7 @@ import styles from "./Main.module.scss"
 
 
 export default function Maincomp() {
+    
     return (
         <>
             <div className={styles.bg}>
@@ -18,6 +19,8 @@ export default function Maincomp() {
                             <br />I'M SPANDITA
                         </h1>
                         <p className={styles.head2}>A coder who loves to design.</p>
+
+                        <button className={styles.button6}>Know me more</button>
 
 
                     </div>
