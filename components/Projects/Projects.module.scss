@@ -1,0 +1,91 @@
+.wrap {
+    
+    display: flex;
+   
+    background: rgb(187, 180, 180);
+    justify-content: center;
+    
+    width: 80vw;
+    margin-left: 10vw;
+   
+    
+  }
+
+  .wrapp{
+    display: flex;
+    flex-direction: column;
+    background: rgb(187, 180, 180);
+    
+   
+    
+  }
+  .card {
+    width: 30vw;
+    min-height: 10vw;
+    background: #2B2B2B;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    margin-top:5vw;
+     
+    
+  }
+  .imgs {
+    width: 100%;
+  }
+  .head{
+    color: white;
+    padding: 0 10px;
+  }
+  
+  .info{
+    height: 1.5vw;
+    margin-bottom: 1vw;
+  }
+
+
+.container{
+
+    margin-top: 9.5vw;
+    .head {
+        font-size: 2.6vw;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-bottom: 4vw;
+    
+    }
+
+    .text{
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 10.5vw;
+        margin-bottom: 2vw;
+        font-size: 1.3vw;
+        width: 30vw;
+        text-align: left;
+        // background-color: #2B2B2B;
+        // padding: 10vw 1vw 1vw 1vw;
+
+    }
+
+    .head1{
+        font-size: 1.4vw;
+        font-family: 'Montserrat', sans-serif;
+        color:white;
+        text-align: center;
+        margin-top: 1vw;
+        
+    }
+    
+
+
+    .hrr{
+
+        border-top: 0.08vw solid black;
+        margin-top: 5vw;
+    }
+    .hrrr{
+        border-top: 0.08vw solid gray;
+        margin-bottom: 4vw;
+    }
+}

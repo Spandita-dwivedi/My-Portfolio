@@ -1,31 +1,32 @@
-.img{
-   
-height: 15vw;
-width: 15vw;
-margin-top: 8vw;
-margin-left: 5vw;
+.img {
+
+    height: 15vw;
+    width: 15vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
 
 }
 
 
 
-.box{
+.box {
     height: 15vw;
     width: 45vw;
-    margin-top: 5vw;
-   
-    
+    margin-top: 7vw;
 
 
-    .head{
+
+
+    .head {
         font-size: 2.6vw;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         color: white;
-        
+        margin-bottom: 4vw;
+
     }
 
-    .head1{
+    .head1 {
         padding-left: 2vw;
         padding-right: 2vw;
         justify-content: center;
@@ -34,44 +35,98 @@ margin-left: 5vw;
         font-family: 'nunito', sans-serif;
         color: #fff;
         line-height: 1.5vw;
+        
     }
 }
-.container{
+
+.container {
     display: flex;
     flex-flow: row;
     margin-left: 17vw;
-    
+    margin-top: 4vw;
+
 }
 
-.main{
+.main {
     background-color: #4e4941;
 }
-.iconnav{
-display: flex;
+
+.iconnav {
+    display: flex;
     flex-direction: row;
     // justify-content: center;
     // align-items: center;
     font-size: 2vw;
     font-family: 'nunito', sans-serif;
     margin-left: 26.2vw;
-    // margin-top: 0.01vw;
+    margin-top: 1.8vw;
     color: #fff;
 
-    .list{
-    
-        display:flex;
+    .list {
+
+        display: flex;
         flex-direction: row;
         gap: 4vw;
-        .icon{
-            
+
+        .icon {
+
             font-size: 1vw;
             align-content: centre;
-        justify-content: baseline;
-        justify-items: center;
-        align-items: center;
-            
-        
-        
+            justify-content: baseline;
+            justify-items: center;
+            align-items: center;
+
+
+
         }
     }
 }
+
+.container2{
+    margin-top: 10vw;
+
+    
+    .head{
+        justify-content:center ;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        color:white;
+        font-size: 2.5vw;
+
+    }
+
+    .button6 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 500;
+        font-size: 1.2vw;
+        padding: 1vw 4em;
+        width:25vw;
+     
+        border: 0.15vw solid white;
+        background: white;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        margin-top: 2.5vw;
+        margin-left: 4vw;
+        
+        &:hover {
+          background: black;
+          background-clip: text;
+        -webkit-background-clip: text;
+          color: transparent;
+          border: 0.15vw solid black;
+          transition: all 400ms cubic-bezier(0.1, -0.6, 0.2, 0);
+        }
+      }
+
+      .mainS{
+        margin-left: 5vw;
+        margin-top: 5vw;
+      }
+
+      .skills1{
+        margin-left: 13vw;
+      }
+}
+
