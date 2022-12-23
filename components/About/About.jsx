@@ -4,7 +4,7 @@ import { CiLocationOn } from 'react-icons/ci';
 import { SlGraduation } from 'react-icons/sl';
 
 
-export default function Maincomp() {
+export default function Aboutcomp() {
     return (
         <>
             <div className={styles.main}>

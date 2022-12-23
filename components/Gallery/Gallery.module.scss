@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+    padding: 8vw;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    margin-left: 3vw;
+
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 40%;
+    padding: 0 0.2vw;
+  }
+  
+  .img {
+    margin-top: 0.4vw;
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 768) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 400) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .head{
+    font-size: 2.6vw;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 2vw;
+  }
