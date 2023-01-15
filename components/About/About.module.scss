@@ -1,23 +1,4 @@
-.img {
-
-    height: 15vw;
-    width: 15vw;
-    margin-top: 10vw;
-    margin-left: 5vw;
-
-}
-
-
-
-.box {
-    height: 15vw;
-    width: 45vw;
-    margin-top: 7vw;
-
-
-
-
-    .head {
+.head {
         font-size: 2.6vw;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
@@ -27,25 +8,19 @@
     }
 
     .head1 {
-        padding-left: 2vw;
-        padding-right: 2vw;
+        
         justify-content: center;
         text-align: justify;
         font-size: 1vw;
         font-family: 'nunito', sans-serif;
         color: #fff;
         line-height: 1.5vw;
+        padding-left: 15vw;
+        padding-right: 15vw;
         
     }
-}
 
-.container {
-    display: flex;
-    flex-flow: row;
-    margin-left: 17vw;
-    margin-top: 4vw;
 
-}
 
 .main {
     background-color: #4e4941;
@@ -59,8 +34,8 @@
     // align-items: center;
     font-size: 2vw;
     font-family: 'nunito', sans-serif;
-    margin-left: 26.2vw;
-    margin-top: 1.8vw;
+    margin-left: 38vw;
+    margin-top: 2vw;
     color: #fff;
 
     .list {

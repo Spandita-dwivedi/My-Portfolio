@@ -6,6 +6,8 @@ import Navbarcomp from '../components/Navbar/Navbar'
 import Aboutcomp from '../components/About/About'
 import Projectscomp from '../components/Projects/Projects'
 import Gallerycomp from '../components/Gallery/Gallery'
+import Verticalcomp from '../components/Vertical/Vertical'
+import Collabcomp from '../components/Collab/Collab'
 
 
 export default function Home() {
@@ -21,6 +23,8 @@ export default function Home() {
    <Aboutcomp/>
    <Projectscomp/>
    <Gallerycomp/>
+<Verticalcomp/>
+<Collabcomp />
    
    </>
   )

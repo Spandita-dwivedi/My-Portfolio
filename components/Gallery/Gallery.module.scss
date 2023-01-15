@@ -44,3 +44,41 @@
     color: white;
     padding-top: 2vw;
   }
+
+  .button6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding: 1vw 4em;
+ 
+    border: 0.15vw solid white;
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 2.5vw;
+    margin-left: 38vw;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    gap: 1vw;
+    
+    
+    
+    &:hover {
+      background: black;
+      background-clip: text;
+    -webkit-background-clip: text;
+      color: transparent;
+      border: 0.15vw solid black;
+      transition: all 400ms cubic-bezier(0.1, -0.6, 0.2, 0);
+    }
+  }
+
+  .dr{
+    height: 1.4vw;
+    width:1.4vw;
+    
+  }
+
+ 

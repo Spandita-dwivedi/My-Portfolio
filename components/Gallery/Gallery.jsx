@@ -58,6 +58,10 @@ export default function Gallerycomp() {
   </div> */}
 </div>
 
+<div className={styles.btn1}>
+<a style={{textDecoration: 'none'}}href='https://dribbble.com/spandita_d'><button className={styles.button6}><img className={styles.dr} src='/images/dribble.png' />See more on dribble</button></a>
+</div>
+
 
 </>
 )

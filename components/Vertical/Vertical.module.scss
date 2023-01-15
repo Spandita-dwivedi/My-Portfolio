@@ -1,0 +1,71 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vw;
+    
+    
+    
+.card1{
+    background: rgb(187, 180, 180);   
+    width: 30%;
+    height: 38vw;
+    font-family: 'Montserrat', sans-serif;
+   
+    text-align: center;
+    padding-left: 5vw;
+    padding-right: 3vw;
+    font-weight: 700;
+    font-size: 1vw;
+    line-height: 1.5vw;
+   
+
+}
+
+.card2{
+    background: rgb(187, 180, 180);
+    width: 30%;
+    height: 38vw;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+    text-align: center;
+    padding-right: 5vw;
+    padding-left: 3vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    
+   
+    
+}
+.head2{
+   margin-left: 2vw;
+   font-weight: bold !important;
+   font-family: 'Montserrat', sans-serif ;
+   
+}
+
+
+
+
+}
+
+.list{
+    text-align: left;
+    margin-left: 10vw;
+    line-height: 2vw;
+}
+
+.list2{
+    text-align: left;
+    margin-left: 12vw;
+    line-height: 2vw;
+}
+
+.img1{
+    height: 4vw;
+    width: 4vw;
+    margin-top: 2.5vw;
+}
+
+
