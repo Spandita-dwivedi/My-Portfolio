@@ -85,41 +85,7 @@ export default function Navbarcomp() {
               </Link>
             </div>
           </nav>
-          {/* {isHovering && (
-            <nav className={styles.nav2} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
-              <Link href="/">
-                <div className={styles.img}>
-                 <h1 className={styles.hea}> Codewar Club</h1>
-                </div>
-              </Link>
-              <div className={styles.iconnav}>
-                <Link href="/">
-                  <div className={styles.icon}>Home</div>
-                </Link>
-                <Link href="">
-                  <div className={styles.icon}>About Us</div>
-                </Link>
-                <Link href="">
-                  <div className={styles.icon}>Gallery</div>
-                </Link>
-                <Link href="">
-                  <div className={styles.icon}>Events</div>
-                </Link>
-              </div>
-              <div className={styles.social}>
-                <Link href="https://www.instagram.com/code_war_mits/">
-                  <div className={styles.icon}>Instagram</div>
-                </Link>
-                <Link href="https://in.linkedin.com/company/codewar-club-mits">
-                  <div className={styles.icon}>Linkedin</div>
-                </Link>
-                <Link href="https://www.instagram.com/code_war_mits/">
-                  <div className={styles.icon}>Message</div>
-                </Link>
-              </div>
-
-            </nav>
-          )} */}
+          
         </div>
       </>
     );
