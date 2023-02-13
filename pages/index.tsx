@@ -21,10 +21,10 @@ export default function Home() {
     <meta name="keywords" content="spandita"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </Head>
-  <Script id="my-script" src="https://unpkg.com/aos@next/dist/aos.js"></Script>
-  <Script id="myy-script">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
     AOS.init();
-  </Script>
+  </script>
     <Navbarcomp />
    <Maincomp/>
    <Aboutcomp/>
