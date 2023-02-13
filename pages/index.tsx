@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
@@ -21,8 +21,8 @@ export default function Home() {
     <meta name="keywords" content="spandita"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </Head>
-  <Script src="https://unpkg.com/aos@next/dist/aos.js"></Script>
-  <Script>
+  <Script id="my-script" src="https://unpkg.com/aos@next/dist/aos.js"></Script>
+  <Script id="myy-script">
     AOS.init();
   </Script>
     <Navbarcomp />
