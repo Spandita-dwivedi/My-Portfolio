@@ -7,8 +7,8 @@ export default function Verticalcomp(){
         <div className={styles.collab}>
             <div className={styles.collab1}>
   
-            <h1 className={styles.head}>Interested in Collabrating with me?</h1>
-            <p className={styles.head1}>Interested in working together? I'm always open to discussing product design work or partnership opportunities</p>
+            <h1 className={styles.head} data-aos="fade-right" data-aos-duration="700" >Interested in Collabrating with me?</h1>
+            <p className={styles.head1} data-aos="fade-right" data-aos-duration="700">Interested in working together? I'm always open to discussing product design work or partnership opportunities</p>
             </div>
             
             <div><button className={styles.button6}><img className={styles.dr} src='/images/message.png' />Start a Conversation</button></div>

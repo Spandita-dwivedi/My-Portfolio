@@ -16,8 +16,12 @@ export default function Home() {
   <Head>
     <title>Spandita|Portfolio</title>
     <meta name="keywords" content="spandita"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </Head>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <Navbarcomp />
    <Maincomp/>
    <Aboutcomp/>

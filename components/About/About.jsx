@@ -1,14 +1,13 @@
 import React from 'react'
 import styles from "./About.module.scss"
-import { CiLocationOn } from 'react-icons/ci';
-import { SlGraduation } from 'react-icons/sl';
+
 
 
 export default function Aboutcomp() {
     return (
         <>
             <div className={styles.main}>
-                
+
                 {/* <div className={styles.container}>
 
 
@@ -31,18 +30,25 @@ export default function Aboutcomp() {
                 </div>
                  */}
                 <div className={styles.container2}>
-                    <h1 className={styles.head}>MY HARD SKILLS</h1>
+
+            
+        
+                        <h1 className={styles.head} data-aos="fade-right"  data-aos-duration="1500" >MY HARD SKILLS</h1>
+                  
+                        
+                    
                     <div className={styles.mainS}>
 
 
-                        <div className={styles.skills}>
+
+                        <div className={styles.skills} data-aos="fade-right"  data-aos-duration="1000">
 
                             <button className={styles.button6}>Web development</button>
                             <button className={styles.button6}>UI/UX</button>
                             <button className={styles.button6}>App development</button>
 
                         </div>
-                        <div className={styles.skills1}>
+                        <div className={styles.skills1} data-aos="fade-right"  data-aos-duration="1000">
                             <button className={styles.button6}>Competitive Programming</button>
                             <button className={styles.button6}>Machine learning</button>
                         </div>

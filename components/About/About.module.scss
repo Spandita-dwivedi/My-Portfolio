@@ -1,5 +1,5 @@
 .head {
-        font-size: 2.6vw;
+        font-size: 2.6rem;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         color: white;
@@ -7,56 +7,15 @@
 
     }
 
-    .head1 {
-        
-        justify-content: center;
-        text-align: justify;
-        font-size: 1vw;
-        font-family: 'nunito', sans-serif;
-        color: #fff;
-        line-height: 1.5vw;
-        padding-left: 15vw;
-        padding-right: 15vw;
-        
-    }
-
 
 
 .main {
     background-color: #4e4941;
+    
    
 }
 
-.iconnav {
-    display: flex;
-    flex-direction: row;
-    // justify-content: center;
-    // align-items: center;
-    font-size: 2vw;
-    font-family: 'nunito', sans-serif;
-    margin-left: 38vw;
-    margin-top: 2vw;
-    color: #fff;
 
-    .list {
-
-        display: flex;
-        flex-direction: row;
-        gap: 4vw;
-
-        .icon {
-
-            font-size: 1vw;
-            align-content: centre;
-            justify-content: baseline;
-            justify-items: center;
-            align-items: center;
-
-
-
-        }
-    }
-}
 
 .container2{
     margin-top: 10vw;

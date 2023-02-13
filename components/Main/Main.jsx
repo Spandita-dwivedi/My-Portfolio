@@ -6,7 +6,7 @@ export default function Maincomp() {
     
     return (
         <>
-            <div className={styles.bg}>
+            <div className={styles.bg} >
                 <video autoPlay muted loop style={{ width: '100%', backgroundSize: 'cover' }}>
                     <source src="/video/my.mp4" />
                 </video>

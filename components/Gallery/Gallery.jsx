@@ -13,27 +13,27 @@ import styles from "./Gallery.module.scss"
 export default function Gallerycomp() {
     return (
         <>
-        <h1 className={styles.head}>
+        <h1 className={styles.head} data-aos="fade-right"  data-aos-duration="2000">
           A Walkway
         </h1>
 <div className={styles.row}> 
   <div className={styles.column}>
-    <img className={styles.img} src="/images/g8.png" style={{width:'100%'}}/>
-    <img className={styles.img} src="/images/g12.png" style={{width:'100%'}}/>
+    <img className={styles.img}  data-aos="flip-left" data-aos-duration="800" src="/images/g8.png" style={{width:'100%'}}/>
+    <img className={styles.img} data-aos="flip-left" data-aos-duration="800" src="/images/g12.png" style={{width:'100%'}}/>
     
     
     
   </div>
-  <div className={styles.column}>
-  <img className={styles.img} src="/images/pro5.png" style={{width:'100%'}}/>
-    <img className={styles.img} src="/images/pro6.png" style={{width:'100%'}}/>
-    <img className={styles.img} src="/images/g2.png" style={{width:'100%'}}/>
+  <div className={styles.column} >
+  <img className={styles.img} data-aos="flip-up" data-aos-duration="800" src="/images/pro5.png" style={{width:'100%'}}/>
+    <img className={styles.img} data-aos="flip-up" data-aos-duration="800" src="/images/pro6.png" style={{width:'100%'}}/>
+    <img className={styles.img} data-aos="flip-up" data-aos-duration="800" src="/images/g2.png" style={{width:'100%'}}/>
   </div>
   
   <div className={styles.column}>
 
-  <img className={styles.img} src="/images/g10.png" style={{width:'100%'}}/>
-    <img className={styles.img} src="/images/g11.png" style={{width:'100%'}}/>
+  <img className={styles.img} data-aos="flip-right" data-aos-duration="800" src="/images/g10.png" style={{width:'100%'}}/>
+    <img className={styles.img} data-aos="flip-right" data-aos-duration="800" src="/images/g11.png" style={{width:'100%'}}/>
     
   </div>
   
