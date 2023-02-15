@@ -12,7 +12,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 import Image from "next/image";
 
 import Link from "next/link";
-import { AiOutlineMail } from 'react-icons/ai';
+import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
 
 
@@ -74,14 +74,14 @@ export default function Navbarcomp() {
               </Link>
             </div>
             <div className={styles.social}>
-              <Link href="https://www.instagram.com/code_war_mits/">
+              <Link href="">
                 <div className={styles.icon}><FiInstagram /></div>
               </Link>
-              <Link href="https://in.linkedin.com/company/codewar-club-mits">
+              <Link href="https://www.linkedin.com/in/spandita-dwivedi-a97789246/">
                 <div className={styles.icon}><AiOutlineLinkedin /></div>
               </Link>
-              <Link href="https://www.instagram.com/code_war_mits/">
-                <div className={styles.icon}><BiMessageDetail /></div>
+              <Link href="https://github.com/Spandita-dwivedi">
+                <div className={styles.icon}><BsGithub /></div>
               </Link>
             </div>
           </nav>
@@ -125,11 +125,11 @@ export default function Navbarcomp() {
                 <Link href="">
                   <div className={styles.icon}><BsInstagram />Instagram</div>
                 </Link>
-                <Link href="">
+                <Link href="https://www.linkedin.com/in/spandita-dwivedi-a97789246/">
                   <div className={styles.icon}><AiOutlineLinkedin />LinkedIn</div>
                 </Link>
-                <Link href="">
-                  <div className={styles.icon}><AiOutlineMail />Message</div>
+                <Link href="https://github.com/Spandita-dwivedi">
+                  <div className={styles.icon}><BsGithub />Github</div>
                 </Link>
               </div>
             </div>
