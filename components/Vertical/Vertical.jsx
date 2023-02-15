@@ -73,7 +73,7 @@ export default function Verticalcomp() {
                     <div style={{ fontWeight: '300' }} className={styles.list}  data-aos="fade-up" data-aos-duration="700" >
 
                         <li>Figma</li>
-                        <li>Font awesome</li>
+                        <li>Adobe Illustrator</li>
                         <li>Balsamiq</li>
                         <li>Framer</li>
                         <li>And ofcourse pen & paper</li>
