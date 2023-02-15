@@ -17,7 +17,8 @@ export default function Home() {
   return (
     <>
   <Head>
-    <title>Spandita|Portfolio</title>
+    <title>Spandita</title>
+    <link rel="icon" href="/favicon.png" />
     <meta name="keywords" content="spandita"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </Head>
