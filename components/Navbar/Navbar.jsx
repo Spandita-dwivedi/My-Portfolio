@@ -1,5 +1,8 @@
 import React from "react";
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 import styles from "./Navbar.module.scss"
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineBulb } from 'react-icons/ai';
@@ -11,9 +14,10 @@ import { BiMessageDetail } from 'react-icons/bi';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import Image from "next/image";
 
-import Link from "next/link";
+
 import { BsGithub } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+
 
 
 
@@ -55,20 +59,25 @@ export default function Navbarcomp() {
   if (windowWidth > 768) {
     return (
       <>
+      
         <div>
           <nav className={styles.nav} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
             
             <div className={styles.iconnav}>
-              <Link href="/">
+              
+              
+              <AnchorLink href='#mainn'>
                 <div className={styles.icon}><AiOutlineHome /></div>
-              </Link>
-              <Link href="/about">
+                </AnchorLink>
+              
+             
+                <AnchorLink href='#vert'>
                 <div className={styles.icon}><BsPerson /></div>
-              </Link>
-              <Link href="/gallery">
-
+              </AnchorLink>
+              
+              <AnchorLink href='#gal'>
                 <div className={styles.icon}><FiCamera /></div>
-              </Link>
+              </AnchorLink>
               <Link href="/events">
                 <div className={styles.icon}><AiOutlineBulb /></div>
               </Link>
@@ -87,6 +96,7 @@ export default function Navbarcomp() {
           </nav>
           
         </div>
+        
       </>
     );
   }

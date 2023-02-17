@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Script from 'next/script'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 import Maincomp from '../components/Main/Main'
@@ -26,9 +27,9 @@ export default function Home() {
   <script>
     AOS.init();
   </script>
-    <Navbarcomp />
-   <Maincomp/>
-   <Aboutcomp/>
+   <Navbarcomp />
+    <Maincomp/>
+     <Aboutcomp/>
    <Projectscomp/>
    <Gallerycomp/>
 <Verticalcomp/>

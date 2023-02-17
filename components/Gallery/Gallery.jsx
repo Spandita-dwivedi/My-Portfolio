@@ -13,6 +13,7 @@ import styles from "./Gallery.module.scss"
 export default function Gallerycomp() {
     return (
         <>
+        <div id='gal'>
         <h1 className={styles.head} data-aos="fade-right"  data-aos-duration="2000">
           A Walkway
         </h1>
@@ -61,7 +62,7 @@ export default function Gallerycomp() {
 <div className={styles.btn1}>
 <a style={{textDecoration: 'none'}}href='https://dribbble.com/spandita_d'><button className={styles.button6}><img className={styles.dr} src='/images/dribble.png' />See more on dribble</button></a>
 </div>
-
+</div>
 
 </>
 )

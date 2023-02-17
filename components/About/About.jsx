@@ -6,6 +6,8 @@ import styles from "./About.module.scss"
 export default function Aboutcomp() {
     return (
         <>
+        <div id='ab'>
+        
             <div className={styles.main}>
 
                 {/* <div className={styles.container}>
@@ -76,8 +78,9 @@ export default function Aboutcomp() {
 
 
             </div>
-
-
+            </div>
+           
+            
 
         </>
     )

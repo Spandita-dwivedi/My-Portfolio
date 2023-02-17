@@ -6,6 +6,7 @@ export default function Maincomp() {
     
     return (
         <>
+        <div id='mainn'>
             <div className={styles.bg} >
                 <video autoPlay muted loop style={{ width: '100%', backgroundSize: 'cover' }}>
                     <source src="/video/my.mp4" />
@@ -26,6 +27,7 @@ export default function Maincomp() {
                     </div>
                 </div>
 
+            </div>
             </div>
         </>
     )
