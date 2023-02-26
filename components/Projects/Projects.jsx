@@ -6,8 +6,10 @@ import styles from "./Projects.module.scss"
 export default function Maincomp() {
     return (
         <>
+        <div className={styles.cardss}>
 
             <div className={styles.container}>
+                
             <hr className={styles.hrrr} style={{ width: '30%', marginLeft: '35vw' , borderBottom:'none'}} />
                 <h1 className={styles.head} data-aos="fade-up"  data-aos-duration="1500">MY PROJECTS</h1>
 
@@ -59,6 +61,8 @@ export default function Maincomp() {
 
 
             </div>
+            </div>
+
             </div>
 
         </>

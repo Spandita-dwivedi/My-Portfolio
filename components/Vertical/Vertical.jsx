@@ -11,7 +11,7 @@ export default function Verticalcomp() {
             <div className={styles.cards} data-aos="fade-up" data-aos-duration="700" >
                 <img className={styles.back} data-aos="fade-up" data-aos-duration="700"  src='/images/texture.jpg' />
 
-                {/* <div className={styles.card1}>
+                {/*  <div className={styles.card1}>
 
 
                     <img className={styles.img1} src='/images/graphic-design.png' />
@@ -62,14 +62,14 @@ export default function Verticalcomp() {
 
                 <div className={styles.card1} data-aos="fade-up" data-aos-duration="700" >
 
-                    <h1 className={styles.head} style={{ fontWeight: '800' }}>DESIGNER</h1>
+                    <h1 className={styles.head} style={{ fontWeight: '800' }}>Designer</h1>
                     <p data-aos="fade-up" data-aos-duration="700" >I value simple content structure, clean design patterns, and thoughtful interactions.</p>
 
 
-                    <h4 style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Things I enjoy designing :</h4>
+                    <h4 className={styles.heh} style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Things I enjoy designing :</h4>
                     <p>UI, Web, Apps, Logo</p>
 
-                    <h4 style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Design Tools :</h4>
+                    <h4 className={styles.heh} style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Design Tools :</h4>
 
                     <div style={{ fontWeight: '300' }} className={styles.list}  data-aos="fade-up" data-aos-duration="700" >
 
@@ -106,14 +106,14 @@ export default function Verticalcomp() {
                         <img className={styles.prog} src='/images/prog.jpg' />
                     </div>
                     <div className={styles.card1s}  data-aos="fade-up" data-aos-duration="700" >
-                    <h1 className={styles.heads} style={{ fontWeight: '800' }}>FRONTEND DEVELOPER</h1>
+                    <h1 className={styles.heads} style={{ fontWeight: '800' }}>Frontend devoloper</h1>
                     <p  data-aos="fade-up" data-aos-duration="700" >I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
 
 
-                    <h4 style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Frameworks i use :</h4>
+                    <h4 className={styles.heh} style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Frameworks i use :</h4>
                     <p  data-aos="fade-up" data-aos-duration="700" >Express.js, React, Next.js, Node.js</p>
 
-                    <h4 style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Dev Tools :</h4>
+                    <h4 className={styles.heh} style={{ fontWeight: 'Bolder' }}  data-aos="fade-up" data-aos-duration="700" >Dev Tools :</h4>
 
                     <div style={{ fontWeight: '300' }}  data-aos="fade-up" data-aos-duration="700"  className={styles.list}>
 

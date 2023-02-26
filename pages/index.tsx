@@ -12,6 +12,8 @@ import Projectscomp from '../components/Projects/Projects'
 import Gallerycomp from '../components/Gallery/Gallery'
 import Verticalcomp from '../components/Vertical/Vertical'
 import Collabcomp from '../components/Collab/Collab'
+import Mecomp from '../components/Me/Me'
+
 
 
 export default function Home() {
@@ -30,10 +32,15 @@ export default function Home() {
    <Navbarcomp />
     <Maincomp/>
      <Aboutcomp/>
+     
    <Projectscomp/>
+   <Mecomp/>
    <Gallerycomp/>
+  
 <Verticalcomp/>
+
 <Collabcomp />
+
    
    </>
   )

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.cont1{
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 5vw;
+
+    margin-top: 8vw;
+    .photu1{
+        height: 30vw;
+        width: 100vw;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        
+    }
+    .cont2{
+
+
+        height: 20vw;
+        width: 20vw;
+        margin-left: 25vw;
+        text-align: right;
+        padding-top: 2vw;
+        position: absolute;
+        margin-top: 3.6vw;
+
+        .spandita{
+            font-family: 'Sacramento', cursive;
+            color: white;
+            font-weight: 100;
+            font-size: 3vw;
+
+        }
+
+        .spandita1{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+           font-weight: lighter;
+        
+           font-size: 1vw;
+        }
+
+        
+
+
+
+    }
+
+
+    .cont3{
+
+        position: absolute;
+        .photu{
+        height: 20vw;
+        width: 20vw;
+        margin-left: 50vw;
+        margin-top: 5vw;
+       
+
+    }
+    }
+}
