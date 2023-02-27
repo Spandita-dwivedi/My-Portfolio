@@ -33,9 +33,12 @@ export default function Home() {
     <Maincomp/>
      <Aboutcomp/>
      
+     
    <Projectscomp/>
-   <Mecomp/>
+   
    <Gallerycomp/>
+   <Mecomp/>
+   
   
 <Verticalcomp/>
 
