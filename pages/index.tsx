@@ -33,10 +33,10 @@ export default function Home() {
     <Maincomp/>
      <Aboutcomp/>
      
-     
+     <Gallerycomp/>
    <Projectscomp/>
    
-   <Gallerycomp/>
+   
    <Mecomp/>
    
   
