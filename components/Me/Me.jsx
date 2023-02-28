@@ -7,7 +7,7 @@ export default function Mecomp(){
        <div className={styles.cont1}>
       
 
-<img className={styles.photu1} src='/images/beautiful-2.jpg' />
+<img className={styles.photu1} src='/images/bea.jpg' />
 
         <div className={styles.cont2}>
 <h1 className={styles.spandita}>I'm spandita</h1>
@@ -16,7 +16,7 @@ export default function Mecomp(){
         </div>
 
         <div className={styles.cont3}>
-            <img className={styles.photu} src='/images/img2.jpg'/>
+            <img className={styles.photu} src='/images/img3.jpeg'/>
 
         </div>
 
