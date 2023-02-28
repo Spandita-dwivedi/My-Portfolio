@@ -16,8 +16,8 @@ export default function Maincomp() {
 
                     <div className={styles.head}>
                         <h1 className={styles.head1}>
-                            HI,
-                            <br />I'M SPANDITA
+                            hi,
+                            <br />i'm spandita.
                         </h1>
                         <p className={styles.head2}>A coder who loves to design.</p>
 

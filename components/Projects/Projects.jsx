@@ -11,7 +11,7 @@ export default function Maincomp() {
             <div className={styles.container}>
                 
             <hr className={styles.hrrr} style={{ width: '30%', marginLeft: '35vw' , borderBottom:'none'}} />
-                <h1 className={styles.head} data-aos="fade-up"  data-aos-duration="1500">MY PROJECTS</h1>
+                <h1 className={styles.head} data-aos="fade-up"  data-aos-duration="1500">My projects</h1>
 
 <div className={styles.wrapp}>
                 <div className={styles.wrap} data-aos="fade-right"  data-aos-duration="1000">

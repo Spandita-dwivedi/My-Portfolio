@@ -35,7 +35,7 @@ export default function Aboutcomp() {
 
             
         
-                        <h1 className={styles.head} data-aos="fade-right"  data-aos-duration="1500" >MY HARD SKILLS</h1>
+                        <h1 className={styles.head} data-aos="fade-right"  data-aos-duration="1500" >My hard skills</h1>
                   
                         
                     
