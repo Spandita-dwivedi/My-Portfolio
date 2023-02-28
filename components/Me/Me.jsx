@@ -7,7 +7,7 @@ export default function Mecomp(){
        <div className={styles.cont1}>
       
 
-<img className={styles.photu1} src='/images/bea.jpg' />
+<img className={styles.photu1} src='/images/9.jpg' />
 
         <div className={styles.cont2}>
 <h1 className={styles.spandita}>I'm spandita</h1>
