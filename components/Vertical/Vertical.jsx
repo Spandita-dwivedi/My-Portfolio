@@ -6,7 +6,7 @@ export default function Verticalcomp() {
 
     return (
         <>
-        <div id='vert'>
+        
 
             <div className={styles.cards} data-aos="fade-up" data-aos-duration="700" >
                 <img className={styles.back} data-aos="fade-up" data-aos-duration="700"  src='/images/texture.jpg' />
@@ -138,7 +138,7 @@ export default function Verticalcomp() {
 
 
 
-            </div>
+            
 
 
         </>

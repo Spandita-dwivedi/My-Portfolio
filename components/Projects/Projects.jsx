@@ -6,6 +6,7 @@ import styles from "./Projects.module.scss"
 export default function Maincomp() {
     return (
         <>
+        <div id='pro'>
         <div className={styles.cardss}>
 
             <div className={styles.container}>
@@ -64,7 +65,7 @@ export default function Maincomp() {
             </div>
 
             </div>
-
+            </div>
         </>
     )
 }

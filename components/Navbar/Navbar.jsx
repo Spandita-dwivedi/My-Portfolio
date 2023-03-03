@@ -71,16 +71,22 @@ export default function Navbarcomp() {
                 </AnchorLink>
               
              
-                <AnchorLink href='#vert'>
-                <div className={styles.icon}><BsPerson /></div>
-              </AnchorLink>
+                
               
               <AnchorLink href='#gal'>
                 <div className={styles.icon}><FiCamera /></div>
               </AnchorLink>
-              <Link href="/events">
+
+              <AnchorLink href='#pro'>
                 <div className={styles.icon}><AiOutlineBulb /></div>
-              </Link>
+              </AnchorLink>
+
+              
+              <AnchorLink href='#vert'>
+                <div className={styles.icon}><BsPerson /></div>
+              </AnchorLink>
+
+              
             </div>
             <div className={styles.social}>
               <Link href="">

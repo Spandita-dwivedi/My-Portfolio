@@ -4,6 +4,7 @@ import styles from "./Me.module.scss"
 export default function Mecomp(){
     return(
         <>
+        <div id='vert'>
        <div className={styles.cont1}>
       
 
@@ -25,7 +26,7 @@ export default function Mecomp(){
        </div>
       
         
-        
+       </div>
         </>
     )
 }
