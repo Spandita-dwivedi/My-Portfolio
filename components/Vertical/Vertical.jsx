@@ -9,7 +9,7 @@ export default function Verticalcomp() {
         
 
             <div className={styles.cards} data-aos="fade-up" data-aos-duration="700" >
-                <img className={styles.back} data-aos="fade-up" data-aos-duration="700"  src='/images/texture.jpg' />
+                <img className={styles.back}  src='/images/texture.jpg' />
 
                 {/*  <div className={styles.card1}>
 
@@ -60,7 +60,7 @@ export default function Verticalcomp() {
                 */}
 
 
-                <div className={styles.card1} data-aos="fade-up" data-aos-duration="700" >
+                <div className={styles.card1} >
 
                     <h1 className={styles.head} style={{ fontWeight: '800' }}>Designer</h1>
                     <p data-aos="fade-up" data-aos-duration="700" >I value simple content structure, clean design patterns, and thoughtful interactions.</p>
@@ -84,8 +84,8 @@ export default function Verticalcomp() {
 
                 </div>
 
-                <div className={styles.card12}  data-aos="fade-up" data-aos-duration="700" >
-                    <img className={styles.design}  data-aos="fade-up" data-aos-duration="700"  src='/images/design.jpg' />
+                <div className={styles.card12}   >
+                    <img className={styles.design}   src='/images/design.jpg' />
                 </div>
 
 
@@ -96,13 +96,13 @@ export default function Verticalcomp() {
 
 
 
-            <div className={styles.cardss}  data-aos="fade-up" data-aos-duration="700" >
-                <img className={styles.backs}   data-aos="fade-up" data-aos-duration="700" src='/images/texture.jpg' />
+            <div className={styles.cardss}   >
+                <img className={styles.backs}   src='/images/texture.jpg' />
 
 
                 
 
-                    <div className={styles.card12s}  data-aos="fade-up" data-aos-duration="700" >
+                    <div className={styles.card12s}  >
                         <img className={styles.prog} src='/images/prog.jpg' />
                     </div>
                     <div className={styles.card1s}  data-aos="fade-up" data-aos-duration="700" >
