@@ -14,7 +14,7 @@
     width: 60vw;
 
     margin-left: 20vw;
-    box-shadow: 1px 1px 10px 1px #fff;
+    box-shadow: 0.3px 0.3px 3px 1px #fff;
     .photu1{
         height: 30vw;
         width: 100vw;
@@ -25,19 +25,19 @@
     .cont2{
 
 
-        height: 20vw;
+        height: 15vw;
         width: 20vw;
         margin-left: 7vw;
         text-align: right;
-        padding-top: 1.4vw;
+        
         position: absolute;
-        margin-top: 3.6vw;
+        margin-top: 1vw;
 
         .spandita{
             font-family: 'Sacramento', cursive;
             color: white;
             font-weight: 100;
-            font-size: 3vw;
+            font-size: 3.5vw;
             margin-top: 2vw;
 
         }
@@ -46,9 +46,9 @@
             font-family: 'Montserrat', sans-serif;
             color: white;
            font-weight: lighter;
-           margin-top: 1vw;
-        
-           font-size: 1vw;
+           
+        line-height: 1.5vw;
+           font-size: 0.9vw;
         }
 
         
@@ -63,9 +63,9 @@
        
         .photu{
         height: 20vw;
-        width: 20vw;
+        width: 17vw;
         margin-left: 34vw;
-        margin-top: 5vw;
+        margin-top: 7vw;
        
 
     }
