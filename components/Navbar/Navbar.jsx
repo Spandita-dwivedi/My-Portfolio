@@ -56,7 +56,7 @@ export default function Navbarcomp() {
     setIsClicked(!isClicked);
   };
 
-  if (windowWidth > 768) {
+  if (windowWidth > 900) {
     return (
       <>
       
