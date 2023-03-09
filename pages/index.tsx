@@ -37,10 +37,11 @@ export default function Home() {
    <Projectscomp/>
    
    
-   <Mecomp/>
+  
    
   
 <Verticalcomp/>
+<Mecomp/>
 
 <Collabcomp />
 

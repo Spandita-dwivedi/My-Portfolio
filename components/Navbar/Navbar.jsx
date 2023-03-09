@@ -89,7 +89,7 @@ export default function Navbarcomp() {
               
             </div>
             <div className={styles.social}>
-              <Link href="">
+              <Link href="https://www.instagram.com/spandita.dw/">
                 <div className={styles.icon}><FiInstagram /></div>
               </Link>
               <Link href="https://www.linkedin.com/in/spandita-dwivedi-a97789246/">
