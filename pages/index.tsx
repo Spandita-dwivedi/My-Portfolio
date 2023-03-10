@@ -39,9 +39,9 @@ export default function Home() {
    
   
    
-  
+   <Mecomp/>
 <Verticalcomp/>
-<Mecomp/>
+
 
 <Collabcomp />
 
