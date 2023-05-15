@@ -11,7 +11,7 @@ export default function Maincomp() {
                 <video autoPlay muted loop style={{ width: '100%', backgroundSize: 'cover' }}>
                     <source src="/video/my.mp4" />
                 </video>
-
+                
                 <div className={styles.overlay}>
 
                     <div className={styles.head}>

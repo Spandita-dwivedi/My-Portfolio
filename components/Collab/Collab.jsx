@@ -11,7 +11,8 @@ export default function Verticalcomp(){
             <p className={styles.head1}>Interested in working together? I'm always open to discussing product design work or partnership opportunities</p>
             </div>
             
-            <div><button className={styles.button6}><img className={styles.dr} src='/images/message.png' />Start a Conversation</button></div>
+            <div><button className={styles.button6}>Start a Conversation</button></div>
+            {/* <img className={styles.dr} src='/images/message.png' /> */}
         </div>
         
         </>

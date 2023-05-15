@@ -6,14 +6,15 @@
     flex-direction: row;
     border-style: solid;
     border-width: 0.07rem;
-    gap: 5vw;
+  gap: 3.5vw;
     padding-bottom: 5rem;
     border-color: rgb(196, 195, 195);
 
     margin-top: 8vw;
-    width: 60vw;
+    
 
     margin-left: 20vw;
+    margin-right: 20vw;
     box-shadow: 0.3px 0.3px 3px 1px #fff;
     height: 26vw;
     .photu1{
@@ -27,11 +28,13 @@
 
 
         height: 15vw;
-        width: 20vw;
-        margin-left: 7vw;
+        width: 19vw;
+        padding-left: 8.5vw;
+
+       
         text-align: right;
         
-        position: absolute;
+        
         margin-top: 1vw;
 
         .spandita{
@@ -50,6 +53,7 @@
            
         line-height: 1.5vw;
            font-size: 0.9vw;
+
         }
 
         
@@ -65,8 +69,8 @@
         .photu{
         height: 20vw;
         width: 17vw;
-        margin-left: 34vw;
-        margin-top: 5.2vw;
+       
+        margin-top: 5.8vw;
        
 
     }

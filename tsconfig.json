@@ -16,7 +16,7 @@
     "incremental": true,
     
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Vertical/Vertical.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Vertical/Vertical.jsx", "components/Footer/Footer.jsx"],
   "exclude": ["node_modules"]
   
 }
