@@ -1,108 +1,116 @@
 .wrap {
-    
-    display: flex;
-   
-    
-    // filter: blur(5px);
-    //     -webkit-filter: blur(5px);
-    
-    justify-content: center;
-    
-    width: 80vw;
-    margin-left: 10vw;
-   
-    
-  }
+  display: flex;
 
-  .wrapp{
-    display: flex;
-    flex-direction: column;
-    
-    // filter: blur(5px);
-    //     -webkit-filter: blur(5px);
-    
-    padding-bottom: 5vw;
-    
-   
-    
+  // filter: blur(5px);
+  //     -webkit-filter: blur(5px);
+
+  justify-content: center;
+
+  width: 80vw;
+  margin-left: 10vw;
+  @media (max-width: 768px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
   }
-  .card {
-    width: 30vw;
-    min-height: 10vw;
-    background: #292A2C;
-    border-radius: 1vw;
-    padding: 0.5vw;
-    margin-top:5vw;
-     
-    
+}
+
+.wrapp {
+  display: flex;
+  flex-direction: column;
+
+  // filter: blur(5px);
+  //     -webkit-filter: blur(5px);
+
+  padding-bottom: 5vw;
+}
+.card {
+  width: 30vw;
+  min-height: 10vw;
+  background: #292a2c;
+  border-radius: 1vw;
+  padding: 0.5vw;
+  margin-top: 5vw;
+  @media (max-width: 768px) {
+    width: 60vw;
+
   }
-  .imgs {
-    width: 100%;
-  }
-  .head{
-    color: white;
-    padding: 0 10px;
-  }
+}
+.imgs {
+  width: 100%;
+}
+.head {
+  color: white;
+  padding: 0 10px;
+}
+
+.info {
+  height: 1.5vw;
+  margin-bottom: 1vw;
   
-  .info{
-    height: 1.5vw;
-    margin-bottom: 1vw;
-  }
+}
 
-.cardss{
+.cardss {
   position: relative;
 }
-.container{
+.container {
+  margin-top: 9.5vw;
 
-    margin-top: 9.5vw;
-    
-    
-   
-    .head {
-      font-size: 3.6vw;
-      font-weight: 100;
-        text-align: center;
-        font-family: 'Sacramento', cursive;
-        color: rgb(228, 227, 227);
-        margin-bottom: 4vw;
-    
-    }
+  .head {
+    font-size: 3.6vw;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Sacramento", cursive;
+    color: rgb(228, 227, 227);
+    margin-bottom: 4vw;
 
-    .text{
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-top: 10.5vw;
-        margin-bottom: 2vw;
-        font-size: 1.09vw;
-        color: rgb(185, 184, 184);
-        line-height: 1.6vw;
-        font-weight: 900;
-        width: 30vw;
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        // background-color: #2B2B2B;
-        // padding: 10vw 1vw 1vw 1vw;
+    @media (max-width: 768px) {
+      font-size: 2.5rem;
 
     }
+  }
 
-    .head1{
-        font-size: 1.4vw;
-        font-family: 'Montserrat', sans-serif;
-        color:white;
-        text-align: center;
-        margin-top: 1vw;
-        
+  .text {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 10.5vw;
+    margin-bottom: 2vw;
+    font-size: 1.09vw;
+    color: rgb(185, 184, 184);
+    line-height: 1.6vw;
+    font-weight: 900;
+    width: 30vw;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    // background-color: #2B2B2B;
+    // padding: 10vw 1vw 1vw 1vw;
+    @media (max-width: 768px) {
+
+      font-size: 2.09vw;
+      line-height: 3vw;
+      width: 63vw;
+
+
+
+
     }
-    
+  }
 
+  .head1 {
+    font-size: 1.4vw;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 1vw;
+  }
 
-    .hrr{
-
-        border-top: 0.08vw solid black;
-        margin-top: 5vw;
-    }
-    .hrrr{
-        border-top: 0.08vw solid gray;
-        margin-bottom: 4vw;
-    }
+  .hrr {
+    border-top: 0.08vw solid black;
+    margin-top: 5vw;
+  }
+  .hrrr {
+    border-top: 0.08vw solid gray;
+    margin-bottom: 4vw;
+  }
 }

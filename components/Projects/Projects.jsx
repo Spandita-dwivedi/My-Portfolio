@@ -19,39 +19,36 @@ export default function Maincomp() {
               My projects
             </h1>
             <div
-                className={styles.wrap}
-                data-aos="fade-right"
-                data-aos-duration="1000"
-              >
-                <div className={styles.card}>
-                  <img
-                    className={styles.imgs}
-                    src="./images/pro2.png"
-                    alt=""
-                  ></img>
-                  <div className={styles.info}>
-                    <h4 className={styles.head1}>HABITICIAN</h4>
-                  </div>
-                </div>
-                <div className={styles.text}>
-                  Built and designed an app for creating your own habits,
-                  creating groups with your friends and competing with them,
-                  Which got shortlisted for one of the top 3 projects on
-                  peerlist in peerlist in one of the India's largest community
-                  hackathon. Using Ionic, Sass, React charts, Firebase and other
-                  technologies
+              className={styles.wrap}
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <div className={styles.card}>
+                <img
+                  className={styles.imgs}
+                  src="./images/pro2.png"
+                  alt=""
+                ></img>
+                <div className={styles.info}>
+                  <h4 className={styles.head1}>HABITICIAN</h4>
                 </div>
               </div>
-              <hr
-                className={styles.hrr}
-                style={{
-                  width: "30%",
-                  marginLeft: "35vw",
-                  borderBottom: "none",
-                }}
-              />
-
-
+              <div className={styles.text}>
+                Built and designed an app for creating your own habits, creating
+                groups with your friends and competing with them, Which got
+                shortlisted for one of the top 3 projects on peerlist in
+                peerlist in one of the India's largest community hackathon.
+                Using Ionic, Sass, React charts, Firebase and other technologies
+              </div>
+            </div>
+            <hr
+              className={styles.hrr}
+              style={{
+                width: "30%",
+                marginLeft: "35vw",
+                borderBottom: "none",
+              }}
+            />
 
             <div className={styles.wrapp}>
               <div
@@ -139,10 +136,6 @@ export default function Maincomp() {
                   Figma. Developed in Next.js, and used SASS for styling.{" "}
                 </div>
               </div>
-
-             
-
-              
             </div>
           </div>
         </div>

@@ -1,14 +1,32 @@
 .collab{
+  @media (max-width: 768px) {
+    
+  }
+
 
 
     .collab1{
         margin-top: 6vw;
+        @media (max-width: 768px) {
+          margin-top: 11vw;
+    
+        }
+      
     }
    .head{
     margin-left: 35.5vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
     color: white;
+    @media (max-width: 768px) {
+      font-size: 2.5vw;
+      display: flex;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 5vw;
+    
+    }
+
     
    }
    .head1{
@@ -18,6 +36,18 @@
     font-size: 1vw;
     color: white;
     margin-top: 2vw;
+    @media (max-width: 768px) {
+      font-size: 1.6vw;
+      
+      
+      width: 70%;
+      
+      text-align: center;
+      margin-left: 13vw;
+      margin-top: 4vw;
+
+    
+    }
 
    }
 
@@ -38,6 +68,21 @@
     flex-direction: row;
    justify-content: center;
     gap: 1vw;
+    @media (max-width: 767px) {
+      white-space: nowrap;
+  
+      padding-top: 2vw;
+      padding-bottom: 2vw;
+      padding-right: 1em;
+      padding-left: 1em;
+      color: white;
+      margin-top: 6vw;
+      font-size: 2vw;
+      width: 40vw;
+      margin-left: 28vw;
+  
+      border: 0.15vw solid white;
+    }
     
     
     
@@ -49,6 +94,8 @@
       border: 0.15vw solid black;
       transition: all 400ms cubic-bezier(0.1, -0.6, 0.2, 0);
     }
+
+
   }
 
 .dr{

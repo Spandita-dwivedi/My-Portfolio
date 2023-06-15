@@ -1,94 +1,120 @@
 .cards {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    margin-top: 8vw;
-    position: relative;
-    margin-left: 10vw;
-    
+  margin-top: 8vw;
+  position: relative;
+  margin-left: 10vw;
+
   margin-right: 14vw;
   margin-bottom: 0;
 
-
-
-    .back {
-        width: 100vw;
-        height: 30vw;
+  .back {
+    width: 100vw;
+    height: 30vw;
+    @media (max-width: 768px) {
+      width: 100%;
+      height: 58vw;
     }
+  }
 
-    .head{
-        font-family: 'Sacramento', cursive;
-        font-size: 2.5vw;
-        font-weight: lighter;
+  .head {
+    font-family: "Sacramento", cursive;
+    font-size: 2.5vw;
+    font-weight: lighter;
+    @media (max-width: 768px) {
+      font-size: 5vw;
     }
+  }
 
-
-    .card1 {
-        position: absolute;
-        text-align: center;
-        padding-left: 2vw;
-        padding-top: 2vw;
-        font-family: 'Montserrat', sans-serif;
-       font-size: 1vw;
-
-
-
+  .card1 {
+    position: absolute;
+    text-align: center;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
+    @media (max-width: 768px) {
+      font-size: 2vw;
+      padding-left: 0vw;
     }
+  }
 
-    
-
-    .list {
-        text-align: left;
-        margin-left: 16vw;
+  .list {
+    text-align: left;
+    margin-left: 16vw;
+    @media (max-width: 768px) {
+      margin-left: 30vw;
     }
+  }
 
-
-    .design {
-        height: 30vw;
-        width: 30vw;
-        margin-right: 20vw;
+  .design {
+    height: 30vw;
+    width: 30vw;
+    margin-right: 20vw;
+    @media (max-width: 768px) {
+      display: none;
     }
+  }
 }
 
-
 .cardss {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 
-    margin-right: 14vw;
-    position: relative;
-margin-top: 5vw;
+  margin-right: 14vw;
+  position: relative;
+  margin-top: 5vw;
 
-
-.heads{
-    font-family: 'Sacramento', cursive;
+  .heads {
+    font-family: "Sacramento", cursive;
     font-size: 2.5vw;
-   }
-
-    .backs {
-        width: 90vw;
-        height: 30vw;
+    @media (max-width: 768px) {
+      font-size: 5vw;
     }
+  }
 
-    .card1s {
-        position: absolute;
-        text-align: center;
-        padding-right: 2.5vw;
-        padding-top: 2vw;
-
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1vw;
-
+  .backs {
+    width: 90vw;
+    height: 30vw;
+    @media (max-width: 768px) {
+      width: 76vw;
+      height: 58vw;
     }
+  }
 
-    .prog {
-        height: 30vw;
-        width: 30vw;
-        margin-left: 10vw;
-    }
+  .card1s {
+    position: absolute;
+    text-align: center;
+    padding-right: 2.5vw;
+    padding-top: 2vw;
 
-    .list{
-        text-align: left;
-        margin-left: 16vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
+    @media (max-width: 768px) {
+      font-size: 2vw;
+      padding-left: 0vw;
+      margin-left: 12vw;
+      
+     
     }
+  }
+
+  .prog {
+    height: 30vw;
+    width: 30vw;
+    margin-left: 10vw;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .list {
+    text-align: left;
+    margin-left: 16vw;
+    @media (max-width: 768px) {
+    margin-left: 28vw;
+       }
+
+  }
 }

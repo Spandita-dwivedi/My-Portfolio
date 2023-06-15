@@ -1,78 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
-.cont1{
-
-    display: flex;
-    flex-direction: row;
-    border-style: solid;
-    border-width: 0.07rem;
+.cont1 {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 0.07rem;
   gap: 3.5vw;
-    padding-bottom: 5rem;
-    border-color: rgb(196, 195, 195);
+  padding-bottom: 5rem;
+  border-color: rgb(196, 195, 195);
 
-    margin-top: 8vw;
+  margin-top: 8vw;
+
+  margin-left: 20vw;
+  margin-right: 20vw;
+  box-shadow: 0.3px 0.3px 3px 1px #fff;
+  height: 26vw;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20vw;
+    height: 38vw;
+    justify-content: center;
+    align-items: center;
     
+    margin-right: 25vw;
+    
+    
+    
+   }
 
-    margin-left: 20vw;
-    margin-right: 20vw;
-    box-shadow: 0.3px 0.3px 3px 1px #fff;
-    height: 26vw;
-    .photu1{
+  .photu1 {
+    height: 30vw;
+    width: 100vw;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  }
+  .cont2 {
+    height: 15vw;
+    width: 19vw;
+    padding-left: 8.5vw;
+
+    text-align: right;
+
+    margin-top: 1vw;
+    @media (max-width: 768px) {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 8vw;
+        width: 38vw;
+        height: 2vw;
+        margin-top: 0;
+
+    }
+
+    .spandita {
+      font-family: "Sacramento", cursive;
+      color: white;
+      font-weight: 100;
+      font-size: 3.5vw;
+      margin-top: 2vw;
+      @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        margin-top: 0vw;
+    
+      }
+    }
+
+    .spandita1 {
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      font-weight: lighter;
+
+      line-height: 1.5vw;
+      font-size: 0.9vw;
+      @media (max-width: 768px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+      }
+    }
+  }
+
+  .cont3 {
+    .photu {
+      height: 20vw;
+      width: 17vw;
+
+      margin-top: 5.8vw;
+      @media (max-width: 768px) {
         height: 30vw;
-        width: 100vw;
-        filter: blur(5px);
-        -webkit-filter: blur(5px);
+        width: 27vw;
+        margin-top: 9vw;
         
+    
+      }
     }
-    .cont2{
-
-
-        height: 15vw;
-        width: 19vw;
-        padding-left: 8.5vw;
-
-       
-        text-align: right;
-        
-        
-        margin-top: 1vw;
-
-        .spandita{
-            font-family: 'Sacramento', cursive;
-            color: white;
-            font-weight: 100;
-            font-size: 3.5vw;
-            margin-top: 2vw;
-
-        }
-
-        .spandita1{
-            font-family: 'Montserrat', sans-serif;
-            color: white;
-           font-weight: lighter;
-           
-        line-height: 1.5vw;
-           font-size: 0.9vw;
-
-        }
-
-        
-
-
-
-    }
-
-
-    .cont3{
-
-       
-        .photu{
-        height: 20vw;
-        width: 17vw;
-       
-        margin-top: 5.8vw;
-       
-
-    }
-    }
+  }
 }

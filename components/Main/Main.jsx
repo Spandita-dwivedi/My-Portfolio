@@ -2,14 +2,26 @@ import React from 'react'
 import styles from "./Main.module.scss"
 
 
+
+
 export default function Maincomp() {
+
+
     
     return (
         <>
+
+       
         <div id='mainn'>
+
+       
+
+
             <div className={styles.bg} >
                 <video autoPlay muted loop style={{ width: '100%', backgroundSize: 'cover' }}>
-                    <source src="/video/my.mp4" />
+                    <source src="/video/my.mp4" media="(min-width: 568px)" />
+                   
+                  
                 </video>
                 
                 <div className={styles.overlay}>
