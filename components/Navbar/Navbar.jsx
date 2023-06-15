@@ -126,15 +126,15 @@ export default function Navbarcomp() {
               </Link>
               <hr className={styles.hrr} style={{ width: '30%', marginLeft: '35vw' , borderBottom:'none'}} />
               <Link href="">
-                <div className={styles.icon}>About Us</div>
+                <div className={styles.icon}>Walkway</div>
               </Link>
               <hr className={styles.hrr} style={{ width: '30%', marginLeft: '35vw', borderBottom:'none' }} />
               <Link href="">
-                <div className={styles.icon}>Gallery</div>
+                <div className={styles.icon}>Projects</div>
               </Link>
               <hr className={styles.hrr} style={{ width: '30%', marginLeft: '35vw', borderBottom:'none' }} />
               <Link href="">
-                <div className={styles.icon}>Events</div>
+                <div className={styles.icon}>About</div>
               </Link>
               <hr className={styles.hrr} style={{ width: '30%', marginLeft: '35vw', borderBottom:'none'}} />
               <div className={styles.list}>

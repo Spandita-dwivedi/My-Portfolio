@@ -5,6 +5,11 @@
 
 .head {
   margin-top: 8vw;
+  @media (max-width: 768px) {
+
+    margin-top: 20vw;
+    
+  }
 }
 
 .row {

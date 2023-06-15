@@ -12,6 +12,11 @@
 
 .container2 {
   margin-top: 10vw;
+  @media (max-width: 768px) {
+
+    margin-top: 20vw;
+    
+  }
 
   .head {
     justify-content: center;
